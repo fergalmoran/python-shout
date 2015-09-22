@@ -19,6 +19,8 @@
  * $Id: shout.c 15285 2008-09-10 07:40:24Z brendan $
  */
 
+#define PY_SSIZE_T_CLEAN
+
 #include <Python.h>
 #include <shout/shout.h>
 
